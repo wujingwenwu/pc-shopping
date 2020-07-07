@@ -9,19 +9,19 @@
       <div class="d-f">
         <div class="d-f heads2">
           <Input v-model="value" suffix="ios-search" placeholder="请输入商品信息" style="width: 300px" />
-          <div class="f-c-b m-l-40 c-p headq1">全部商品</div>
+          <div class="f-c-b m-l-40 c-p headq1" @click="click">全部商品</div>
           <div class="f-c-b m-l-40 c-p headq1">捐赠</div>
         </div>
         <div class="f-c-hu heads2">|</div>
         <div class="d-f heads2">
-          <Icon type="ios-contact font" class="c-p headq2" />
+          <Icon type="ios-contact font" class="c-p headq2" @click="clickItem"/>
           <Icon type="ios-cart-outline font" class="m-l-40 c-p headq2" />
         </div>
       </div>
     </div>
     <div class="heada d-f a-i-c">
       <div class="heada1 dian">·</div>
-      <div class="f-w heada1 heada3">首页</div>
+      <div class="f-w heada1 heada3" @click="clickd">首页</div>
       <div class="heada1">·</div>
       <div class="heada1 heada3" @click="click">全部</div>
       <div class="heada1">·</div>
@@ -56,7 +56,13 @@ export default {
   components: {},
   methods: {
     click(){
-      this.$router.push('/Whole')
+      this.$router.push('/whole')
+    },
+    clickItem(){
+       this.$router.push('/register')
+    },
+    clickd(){
+      this.$router.push("/")
     }
   },
   mounted() {},
