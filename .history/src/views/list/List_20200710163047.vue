@@ -1,0 +1,51 @@
+<template>
+ <div>
+   <div class="d-f">
+   <div class="list">
+   
+   </div>
+   <div>
+   
+   </div>
+   </div>
+ </div>
+</template>
+
+<script>
+ export default {
+   name:'',
+   props:{
+
+    },
+   data () {
+     return {
+
+   }
+   },
+   components: {
+
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+.list{
+    width: 210px;
+    height: 530px;
+    background: white;
+    border-radius: 10px;
+}
+
+</style>

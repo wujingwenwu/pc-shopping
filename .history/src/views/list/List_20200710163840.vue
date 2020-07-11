@@ -1,0 +1,62 @@
+<template>
+ <div>
+   <div class="d-f">
+   <div class="list">
+   
+   </div>
+   <div>
+   <div class="products1 d-f a-i-c">
+      <div class="m-l-20 f-s-18 c-p">购物清单</div>
+    </div>
+   </div>
+   </div>
+ </div>
+</template>
+
+<script>
+ export default {
+   name:'',
+   props:{
+
+    },
+   data () {
+     return {
+
+   }
+   },
+   components: {
+
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+.list{
+    width: 210px;
+    height: 530px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 170px;
+}
+.products1 {
+  width: 988px;
+  height: 60px;
+  margin-left: 170px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(#fbfbfb, #ececec);
+}
+</style>
